@@ -35,14 +35,12 @@ const Tweets = () => {
           data
         );
         if (res?.data?.message === "success") {
-          console.log(res?.data?.data[0]);
           dispatch(UpdateTweets(res?.data?.data[0]));
           if (tweets[index].OWNER === USERNAME) {
             dispatch(setNotify(true));
           }
         }
       } catch (e) {
-        console.log(e);
       }
     } else {
       try {
@@ -58,7 +56,6 @@ const Tweets = () => {
           dispatch(UpdateTweets(res?.data?.data[0]));
         }
       } catch (e) {
-        console.log(e);
       }
     }
   };

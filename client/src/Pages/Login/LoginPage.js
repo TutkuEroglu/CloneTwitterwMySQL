@@ -9,7 +9,6 @@ import loginBg from "../../Assets/Images/login.png";
 const LoginPage = () => {
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
-  const [loginStatus, setLoginStatus] = useState("");
 
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -23,10 +22,8 @@ const LoginPage = () => {
       };
       const response = await Axios.post("http://localhost:3001/login", data);
       if (response?.data?.message) {
-        setLoginStatus(response?.data?.message);
-        console.log(loginStatus);
+        alert("hatalı giriş")
       } else {
-        console.log(response?.data[0]);
         dispatch(signIn(response?.data[0]));
         navigate("/home");
       }

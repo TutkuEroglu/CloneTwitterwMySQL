@@ -16,9 +16,9 @@ const Modal = ({ open, onClose }) => {
   const [webSite, setWebSite] = useState(WEBSITE);
   const [visibility, setVisibility] = useState(true);
   const birthdayArray = BIRTHDAY.split(" ");
-  const [selectedDay, setSelectedDay] = useState(BIRTHDAY[0]);
-  const [selectedMonth, setSelectedMonth] = useState(BIRTHDAY[1]);
-  const [selectedYear, setSelectedYear] = useState([BIRTHDAY[2]]);
+  const [selectedDay, setSelectedDay] = useState(birthdayArray[0]);
+  const [selectedMonth, setSelectedMonth] = useState(birthdayArray[1]);
+  const [selectedYear, setSelectedYear] = useState([birthdayArray[2]]);
   const dayOptions = [
     1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
     22, 23, 24, 25, 26, 27, 28, 29, 30, 31,
@@ -58,19 +58,13 @@ const Modal = ({ open, onClose }) => {
         "http://localhost:3001/api/profileinfo",
         data
       );
-      console.log(response);
       if (response?.data) {
         if (response?.data?.message === "success") {
-          console.log("helo");
-          console.log(response.data);
-          console.log(response?.data?.data[0]);
           dispatch(signIn(response?.data?.data[0]));
         } else {
-          console.log("error");
         }
       }
     } catch (e) {
-      console.log(e);
       return e;
     }
     setVisibility(true);

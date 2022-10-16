@@ -28,7 +28,6 @@ const GetUserTweets = () => {
       if (res?.data?.message === "success") {
         dispatch(saveUserTweets(res?.data?.data));
       } else {
-        console.log(res?.data?.message);
       }
     } catch (e) {
       return e;
@@ -48,14 +47,12 @@ const GetUserTweets = () => {
           data
         );
         if (res?.data?.message === "success") {
-          console.log(res?.data?.data[0]);
           dispatch(updateUserTweets(res?.data?.data[0]));
           if (tweets[index].OWNER === USERNAME) {
             dispatch(setNotify(true));
           }
         }
       } catch (e) {
-        console.log(e);
       }
     } else {
       try {
@@ -71,7 +68,6 @@ const GetUserTweets = () => {
           dispatch(updateUserTweets(res?.data?.data[0]));
         }
       } catch (e) {
-        console.log(e);
       }
     }
   };
