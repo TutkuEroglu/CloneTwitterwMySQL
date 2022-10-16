@@ -1,0 +1,133 @@
+.SideBarButtons {
+    margin-top: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #000000;
+    border: 1px solid black;
+    border-radius: 50px;
+  }
+  
+  .SideBarButtons:hover {
+      background-color: #202327;
+      cursor: pointer;
+    }
+  
+  .SideBarNames {
+    margin-left: 20px;
+  }
+  
+  .SideBarIcons {
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .notify {
+    font-size: 8px;
+    position: absolute;
+    color: #1D9BF0;
+  }
+
+  @media only screen and (max-width: 1370px) {
+    .SideBarButtons {
+      width: 70%;
+      font-size: 20px;
+      margin-left: auto;
+    }
+    .SideBarIcons {
+      padding: 5px 20px;
+      box-sizing: border-box;
+    }
+  }
+  
+  @media only screen and (max-width: 1120px) {
+    .SideBarButtons {
+      width: 90%;
+      font-size: 20px;
+      margin-left: auto;
+    }
+    .SideBarIcons {
+      padding: 5px 30px;
+      box-sizing: border-box;
+    }
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .SideBarButtons {
+      width: 90%;
+      font-size: 20px;
+      
+    }
+    .SideBarIcons {
+      padding: 5px 30px;
+      box-sizing: border-box;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .SideBarButtons {
+      width: 50px;
+      font-size: 18px;
+      border-radius: 9999px;
+      height: 50px;
+    }
+  
+    .SideBarIcons {
+      margin-left: -25px;
+      box-sizing: border-box;
+    }
+   
+    .SideBarNames {
+      visibility: hidden;
+    }
+  }
+  
+  @media only screen and (max-width: 420px) {
+    .SideBarButtons {
+      width: 100%;
+      font-size: 18px;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      
+     
+    }
+    .SideBarNames {
+      visibility: hidden;
+      max-width: 0px;
+      min-width: 0px;
+      width: 0px;
+      height: 0px;
+      position: absolute;
+    }
+    .SideBarButtons:hover {
+      border-radius: 0px;
+    }
+    .SideBarIcons {
+      margin: auto;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+  @media only screen and (max-width: 360px) {
+    .SideBarButtons {
+      width: 70px;
+      padding: 0;
+      font-size: 18px;
+      height: 50px;
+      align-items: center; 
+    }
+    .SideBarButtons:hover {
+      border-radius: 0px;
+    }
+    .SideBarIcons {
+      width: 100%;
+      padding: 0;
+      margin-left: 25px;
+    }
+  }

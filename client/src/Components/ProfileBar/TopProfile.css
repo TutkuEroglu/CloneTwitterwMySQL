@@ -1,0 +1,325 @@
+.TopProfileContainer {
+  height: 500px;
+}
+.profileHeader {
+  position: sticky;
+  z-index: 2;
+  top: 0px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #202327;
+}
+
+.profileHeader:hover {
+  cursor: pointer;
+}
+
+.backIcon {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 8px 15px 8px 12px;
+  padding: 7px;
+  color: white;
+  box-sizing: border-box;
+}
+
+.backIcon:hover {
+  background-color: #202327;
+  cursor: pointer;
+}
+
+.usernameLabel {
+  font-size: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+.usernameLabel:hover {
+  cursor: pointer;
+}
+
+.tweetSpan {
+  color: grey;
+  font-size: 13px;
+}
+
+.backgroundImage {
+  height: 200px;
+  width: 100%;
+  background-color: #3d5466;
+}
+
+.profileTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 15px;
+  box-sizing: border-box;
+}
+
+.profileImage {
+  width: 134px;
+  height: 134px;
+  margin-top: -67px;
+  border-radius: 9999px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.profileImage .img {
+  width: 134px;
+  height: 134px;
+  border-radius: 50%;
+  border: 4px solid black;
+}
+
+.editProfile {
+  height: auto;
+  margin-left: auto;
+  margin-top: -7px;
+  padding: 10px 15px;
+  border: 1px solid grey;
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+.editProfile:hover {
+  background-color: #202327;
+  cursor: pointer;
+}
+
+.profileBiography {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px;
+  box-sizing: border-box;
+}
+.profileBiography .profileName {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.profileBiography .profileNick {
+  color: grey;
+  font-size: 15px;
+}
+.profileBiography .profileDesc {
+  margin: 20px 0 5px 0;
+  color: #ffffff;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.profileBiography .profileJoin {
+  display: flex;
+  align-items: center;
+  color: grey;
+  font-size: 15px;
+}
+
+.location {
+  font-size: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.webSiteLink  {
+  font-size: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: 10px;
+}
+
+.balloon {
+  font-size: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: 0px;
+}
+
+.calendar {
+  font-size: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: 15px;
+}
+
+.profile .profileLocation {
+  margin-left: 3px;
+}
+
+.profile .profileLink {
+  margin-left: 2px;
+  padding-right: 5px;
+}
+
+.profile .profileLink:hover {
+  cursor: pointer;
+}
+
+.profile .profileBirthDay {
+  margin-left: 2px;
+}
+
+.profile .profileJoinDay {
+  margin-left: 2px;
+}
+
+.profile .ProfileFollow {
+  font-size: 16px;
+  color: grey;
+  font-weight: 500;
+  padding: 0px 15px;
+  margin-top: 15px;
+  margin-left: 1px;
+  box-sizing: border-box;
+  height: 30px; 
+}
+
+.profile .Follow {
+  color: white;
+  font-style: normal;
+}
+
+.profile .ProfileFollowers {
+  font-size: 16px;
+  color: grey;
+  font-weight: 500;
+  margin-left: 10px;
+  height: 30px;
+}
+
+.profile .Followers {
+  color: white;
+  font-style: normal;
+}
+
+.profile .ProfileFollow:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+  cursor: pointer;
+}
+
+.profile .ProfileFollowers:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+  cursor: pointer;
+}
+
+.profileCategory {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;  
+  margin-top: 5px;
+}
+
+.profileCategoryBtns {
+  height: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #5f5f5f;
+  border-bottom: 1px solid #202327;
+  margin-bottom: 10px;
+}
+
+.profileCategoryBtns:hover {
+  color: white;
+  background-color: #202327;
+  cursor: pointer;
+  
+}
+
+.profileCategoryTextActive {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid #1D9BF0;
+  color: white;
+}
+
+.profileCategoryBtns:hover .profileCategoryText{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid #1D9BF0;
+}
+
+@media only screen and (max-width: 360px) {
+  .backgroundImage {
+    height: 100px;
+  }
+  .profileImage .img {
+    height: 78px;
+    width: 78px;
+  }
+  .profileImage {
+    width: 86px;
+  }
+  .editProfile {
+    font-size: 13px;
+  }
+  .profileBiography .profileName {
+    font-size: 15px;
+    line-height: 14px;
+  }
+  .profileBiography .profileNick {
+    font-size: 13px;
+  }
+  .profileBiography .profileDesc {
+    font-size: 13px;
+  }
+  .profileBiography .profileJoin {
+    font-size: 12px;
+  }
+  .location {
+    font-size: 14px;
+  }
+  .webSiteLink {
+    font-size: 18px;
+  }
+  .balloon {
+    font-size: 14px;
+  }
+  .calendar {
+    font-size: 14px;
+  }
+  .profile .ProfileFollow {
+    font-size: 14px;
+  }
+  .profile .ProfileFollowers {
+    font-size: 14px;
+  }
+  .profileCategory {
+    height: 40px;
+  }
+  .profileCategoryBtns {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}

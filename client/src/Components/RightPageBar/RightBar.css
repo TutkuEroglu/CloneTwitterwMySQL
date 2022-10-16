@@ -1,0 +1,266 @@
+.searchBar {
+  display: flex;
+  margin-left: 40px;
+  height: 50px;
+  margin-top: 5px;
+  flex-direction: row-reverse;
+}
+
+.searchIcon {
+  border: none;
+  background-color: #20232785;
+  color: grey;
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 18px;
+}
+
+.searchInput {
+  padding: 0 33px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #20232785;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+}
+
+.searchInput::placeholder {
+  color: grey;
+}
+
+
+.searchInput:focus {
+  border-top: 2px solid #0e72b4;
+    border-right: 2px solid #0e72b4;
+    border-bottom: 2px solid #0e72b4;
+    box-shadow: none;
+    outline: none;
+    color: white;
+    background-color: black;
+} 
+
+.searchInput:focus + .searchIcon {
+  border-top: 2px solid #0e72b4;
+  border-left: 2px solid #0e72b4;
+  border-bottom: 2px solid #0e72b4;
+  background-color: black;
+  color: #0e72b4;
+}
+
+.likeOffer {
+   height: 310px;
+   width: 300px;
+   background-color: #20232785;
+   margin-top: 20px;
+   margin-left: 40px;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+}
+
+.offerHeader {
+    font-size: 20px;
+    height: 50px;
+    font-weight: 800;
+    display: flex;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+    align-items: center;
+    color: white;
+}
+
+.offerHeader:hover {
+    cursor: text;
+}
+
+.offerChoice {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 70px;
+   width: auto;
+}
+
+.offerChoice:hover {
+    cursor: pointer;
+    background-color: #20232785;
+}
+
+.offerUserPic {
+    max-height: 50px;
+    max-width: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-left: 5px;
+  }
+
+  .offerUserName {
+    color: white;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    box-sizing: border-box;
+    max-width: 80px;
+    min-width: 80px;
+}
+
+.offerUserName:hover {
+    cursor: pointer;
+}
+
+  .offerUserTag {
+    color: grey;
+  }
+
+  .offerFollowButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    border-radius: 20px;
+    height: 40px;
+    padding: 0 20px;
+    border: none;
+    font-weight: 600;
+  }
+
+  .offerMore {
+    padding: 0 20px;
+    box-sizing: border-box;
+    height: auto;
+    margin-top: auto;
+    height: 50px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #0e72b4;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .offerMore:hover {
+    cursor: pointer;
+    background-color: #20232785;
+  }
+
+
+  .topicInterest {
+    height: 650px;
+    width: 300px;
+    background-color: #20232785;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topicHeader {
+    font-size: 19px;
+    height: 50px;
+    font-weight: 800;
+    display: flex;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+    align-items: center;
+    color: white;
+  }
+
+  .topicChoice {
+    height: 75px;
+  }
+  
+  .topicInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3px 20px;
+    margin-top: 3px;
+  }
+
+  .topicInfo:hover {
+    cursor: pointer;
+    background-color: #20232785;
+  }
+
+  .topicLocation {
+    color: grey;
+    font-size: 14px;
+  }
+
+  .topicName {
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  .topicTweetNumber {
+    color: grey;
+    font-size: 14px;
+  }
+
+  .topicMore {
+    height: 50px;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    margin-top: auto;
+    box-sizing: border-box;
+    color: #0e72b4;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .topicMore:hover {
+    cursor: pointer;
+    background-color: #20232785;
+  }
+
+  @media only screen and (max-width: 1370px) {
+    .searchBar {
+      margin-left: 15px;
+      width: 250px;
+    }
+    .searchIcon {
+      width: 45px;
+    }
+    .searchInput  {
+      padding: 0 10px;
+    }
+    .likeOffer {
+      margin-left: 15px;
+      width: 250px;
+    }
+    .offerHeader {
+      font-size: 18px;
+    }
+    .offerUserPic {
+      width: 40px;
+      height: 40px;
+    }
+    .offerUserName {
+      font-size: 16px;
+    }
+    .offerFollowButton {
+      font-size: 14px;
+      margin-left: 20px;
+    }
+    .topicInterest {
+      margin-left: 15px;
+      width: 250px;
+    }
+    .topicHeader {
+      font-size: 16px;
+    }
+  }

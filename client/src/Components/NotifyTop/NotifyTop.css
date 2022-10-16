@@ -1,0 +1,144 @@
+.notifyHeader {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.headerLabel {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+.headerLabel:hover {
+    cursor: pointer;
+}
+
+.headerIcon {
+    font-size: 20px;
+    color: white;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.headerIcon:hover {
+    cursor: pointer;
+    background-color: #20232785;
+}
+
+.notifyButtons {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #202327;
+}
+
+.notifyLeftBtn,
+.notifyRightBtn {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    font-size: 17px;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+}
+
+.notifyLeft {
+    display: flex;
+    color: grey;
+}
+
+.notifyLeftActive {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-bottom: 3px solid #1D9BF0;
+}
+
+.notifyLeftActive:hover {
+    cursor: pointer;
+}
+
+.notifyLeftBtn:hover {
+    cursor: pointer;
+    background-color: #20232785;
+}
+
+.notifyLeftBtn:hover .notifyLeftActive{
+    cursor: pointer;
+    border-bottom: 3px solid #1D9BF0;
+}
+
+.notifyRightBtn {
+    width: 100%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notifyRight {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.notifyRightBtn:hover {
+    cursor: pointer;
+    background-color: #20232785;
+}
+
+.notifyRightBtn:hover .notifyRight{
+    cursor: pointer;
+    border-bottom: 3px solid #1D9BF0;
+}
+
+.notifications {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #202327;
+}
+
+.notifications:hover {
+    cursor: pointer;
+    background-color: #20232785;
+}
+
+.notifyDiv {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10px;
+    font-size: 30px;
+    box-sizing: border-box;
+    color: rgb(235, 15, 150);
+}
+
+.notifyLabel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: white;
+}
+
+.notifyLabel:hover {
+    cursor: pointer;
+}

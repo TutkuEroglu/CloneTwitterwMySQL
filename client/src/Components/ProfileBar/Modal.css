@@ -1,0 +1,240 @@
+.fade {
+    background-color: rgba(255, 255, 255, 0.212);
+}
+
+.modalContainer {
+    background-color: black;
+    border: 2px solid black;
+    height: 775px;
+    width: 650px;
+}
+
+.header {
+    color: white;
+    height: 50px;
+    border: none;
+}
+
+.close {
+    border-radius: 50%;
+    color: white;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close:hover {
+    background-color: #202327 !important;
+}
+
+.headerLeftContainer {
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+}
+
+.headerLeftText {
+    margin-left: 15px;
+}
+
+.editProfileContain {
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.editProfileContain:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.938);
+  }
+
+.backgroundImageContain {
+    height: 200px;
+    width: 100%;
+    background-color: #3d5466;
+  }
+
+.profileTitleContain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+.profileImageContain {
+    width: 134px;
+    height: 134px;
+    margin-top: -67px;
+    border-radius: 9999px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.imgContain {
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+    border: 4px solid black;
+}
+
+.userSpan {
+  color: gray;
+}
+
+.editSpan {
+  color: #1D9BF0;
+}
+
+.editSpan:hover {
+    cursor: pointer;
+    text-decoration:underline
+  }
+
+.birthDaySpan {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  
+}
+
+.label {
+    color: grey;
+    font-size: 18px;
+}
+
+.input {
+    background-color: black;
+    color: white;
+    border: 1px solid grey;
+}
+
+.input:focus {
+    box-shadow:  none;
+    background-color: black;
+    border: 2px solid #1D9BF0;
+    color: white;
+}
+
+.input:focus + label {
+    color: #1D9BF0;
+}
+
+.select {
+    display: flex;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.selectDate {
+    margin-left: 10px;
+    height: 100%;
+    background-color: black;
+    color: white;
+    box-shadow: none;
+}
+
+.selectDay:focus,
+.selectMonth:focus,
+.selectYear:focus {
+    box-shadow: none;
+    border: 2px solid #1D9BF0;
+}
+
+.selectDay {
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: none;
+    width: 50%;
+}
+
+.selectMonth {
+    background-color: black;
+    color: white;
+    box-shadow: none;
+    width: 100%;
+}
+
+.selectYear {
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: none;
+    width: 50%;
+}
+
+@media only screen and (max-width: 1120px) {
+    .modalContainer {
+        height: 750px;
+        width: 700px;
+    }
+    .fade {
+        width: 100%;
+        height: 100%;
+    }
+  }
+
+@media only screen and (max-width: 980px) {
+    .modalContainer {
+        height: 750px;
+        width: 600px;
+    }
+    .fade {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .modalContainer {
+        height: 750px;
+        width: 500px;
+    }
+    .fade {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .modalContainer {
+        height: 750px;
+        width: 450px;
+    }
+    .fade {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .modalContainer {
+        height: 750px;
+        width: 380px;
+    }
+    .fade {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .modalContainer {
+        height: 750px;
+        width: 330px;
+    }
+    .fade {
+        width: 100%;
+        height: 100%;
+    }
+  }

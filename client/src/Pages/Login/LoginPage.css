@@ -1,0 +1,149 @@
+.LoginPage {
+  display: grid;
+  grid-template-columns: 74% 1fr;
+  height: 100%;
+  width: 100%;
+  grid-gap: 20px;
+}
+
+.loginLeftContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBg {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twitterBg {
+  position: absolute;
+  font-size: 400px;
+  color: white;
+}
+
+.loginRightContainer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 700px;
+}
+
+.loginHeader {
+  margin-top: 20px;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.loginHeader:hover {
+  cursor: pointer;
+  background-color: #202327;
+}
+
+.loginLabel {
+  margin-top: 60px;
+  font-size: 70px;
+  font-weight: 700;
+  color: white;
+}
+
+.loginSpan {
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+
+.userNameForm {
+  width: 300px;
+  margin-top: 30px;
+}
+
+.passwordForm {
+  width: 300px;
+  margin-top: 15px;
+}
+
+
+.loginInput {
+  border: 1px solid grey;
+  background-color: black;
+  color: white;
+}
+
+.loginforLabel {
+  color: grey;
+}
+
+.loginInput:focus {
+  box-shadow: none;
+  border: 2px solid #1D9BF0;
+  background-color: black;
+  color: white;
+}
+
+.loginInput:focus + label {
+  color: #1D9BF0;
+}
+
+.loginButtonContainer {
+  margin-top: 15px;
+  width: 300px;
+  display: flex;
+}
+
+.loginBtn {
+  border: 1px solid white;
+  width: 100%;
+  padding: 5px 0;
+  border-radius: 9999px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.loginBtn:hover {
+  background-color: rgba(255, 255, 255, 0.808);
+}
+
+@media only screen and (max-width: 1100px) {
+  .LoginPage {
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+      grid-auto-flow: dense;
+  }
+
+  .loginRightContainer {
+      grid-row: 1;
+      margin: 0 auto;
+      align-items: center;
+  }
+
+  .loginLabel {
+      margin-top: 0;
+      text-align: center;
+      font-size: 40px;
+  }
+
+  .loginSpan {
+      margin-top: 0;
+      text-align: center;
+      font-size: 20px;
+  }
+
+  .twitterBg {
+      font-size: 100px;
+  }
+}
