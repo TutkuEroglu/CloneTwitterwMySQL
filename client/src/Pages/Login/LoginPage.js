@@ -1,4 +1,4 @@
-import "../Login/LoginPage.css";
+import "./LoginPage.css";
 import React, { useState } from "react";
 import Axios from "axios";
 import { useDispatch } from "react-redux";

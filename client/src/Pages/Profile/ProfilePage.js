@@ -1,5 +1,5 @@
 import React from "react";
-import "../Profile/ProfilePage.css";
+import "./ProfilePage.css";
 import Navbar from "../../Components/Navbar";
 import TopProfile from "../../Components/ProfileBar/TopProfile";
 import RightBar from "../../Components/RightPageBar/RightBar";

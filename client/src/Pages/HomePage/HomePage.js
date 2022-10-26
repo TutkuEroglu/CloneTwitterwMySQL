@@ -1,4 +1,4 @@
-import "../HomePage/HomePage.css";
+import "./HomePage.css";
 import React from "react";
 import Navbar from "../../Components/Navbar";
 import SendTweet from "../../Components/SendTweet/SendTweet";

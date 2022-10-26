@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../getUserTweets/getUserTweets.css";
+import "./getUserTweets.css";
 import ProfileImage from "../../Assets/Images/user.png";
 import TweetBtnLists from "../../Lists/TweetBtnLists";
 import Axios from "axios";
