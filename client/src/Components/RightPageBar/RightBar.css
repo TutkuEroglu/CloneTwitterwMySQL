@@ -73,20 +73,16 @@
     color: white;
 }
 
-.offerHeader:hover {
-    cursor: text;
-}
-
 .offerChoice {
    display: flex;
    justify-content: center;
    align-items: center;
    height: 70px;
    width: auto;
+   cursor: pointer;
 }
 
 .offerChoice:hover {
-    cursor: pointer;
     background-color: #20232785;
 }
 
@@ -110,9 +106,6 @@
     box-sizing: border-box;
     max-width: 80px;
     min-width: 80px;
-}
-
-.offerUserName:hover {
     cursor: pointer;
 }
 
@@ -145,10 +138,10 @@
     align-items: center;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
   }
 
   .offerMore:hover {
-    cursor: pointer;
     background-color: #20232785;
   }
 
@@ -185,10 +178,10 @@
     align-items: flex-start;
     padding: 3px 20px;
     margin-top: 3px;
+    cursor: pointer;
   }
 
   .topicInfo:hover {
-    cursor: pointer;
     background-color: #20232785;
   }
 
@@ -220,10 +213,10 @@
     font-weight: 600;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    cursor: pointer;
   }
 
   .topicMore:hover {
-    cursor: pointer;
     background-color: #20232785;
   }
 

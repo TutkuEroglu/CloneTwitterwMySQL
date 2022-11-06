@@ -10,11 +10,11 @@
     background-color: #000000;
     border: 1px solid black;
     border-radius: 50px;
+    cursor: pointer;
   }
   
   .SideBarButtons:hover {
       background-color: #202327;
-      cursor: pointer;
     }
   
   .SideBarNames {

@@ -46,10 +46,10 @@
   height: 60px;
   width: 60px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .loginHeader:hover {
-  cursor: pointer;
   background-color: #202327;
 }
 

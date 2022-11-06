@@ -3,10 +3,10 @@
     height: 120px;
     border-bottom: 1px solid rgb(113, 118, 123);;
     background-color: black;
+    cursor: pointer;
 }
 
 .TweetContain:hover {
-    cursor: pointer;
     background-color: #20232785;
 }
 
@@ -36,21 +36,21 @@
 .TextContain .textUsernameContain {
     font-weight: 600;
     padding: 0 5px 0 0;
+    cursor: pointer;
 }
 
 .TextContain .textUsernameContain:hover {
     text-decoration: underline;
-    cursor: pointer;
   }
 
 .TextContain .textDateContain {
     color: grey;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .TextAreaContain .textDateContain:hover {
   text-decoration: underline;
-  cursor: pointer;
 }
 
 .BottomContain {

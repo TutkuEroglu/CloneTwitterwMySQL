@@ -11,9 +11,6 @@
     font-size: 22px;
     font-weight: 700;
     color: white;
-}
-
-.headerLabel:hover {
     cursor: pointer;
 }
 
@@ -26,10 +23,10 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .headerIcon:hover {
-    cursor: pointer;
     background-color: #20232785;
 }
 
@@ -64,9 +61,6 @@
     justify-content: center;
     color: white;
     border-bottom: 3px solid #1D9BF0;
-}
-
-.notifyLeftActive:hover {
     cursor: pointer;
 }
 
@@ -86,6 +80,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .notifyRight {
@@ -97,7 +92,6 @@
 }
 
 .notifyRightBtn:hover {
-    cursor: pointer;
     background-color: #20232785;
 }
 
@@ -111,10 +105,10 @@
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid #202327;
+    cursor: pointer;
 }
 
 .notifications:hover {
-    cursor: pointer;
     background-color: #20232785;
 }
 
@@ -137,8 +131,5 @@
     box-sizing: border-box;
     font-size: 18px;
     color: white;
-}
-
-.notifyLabel:hover {
     cursor: pointer;
 }

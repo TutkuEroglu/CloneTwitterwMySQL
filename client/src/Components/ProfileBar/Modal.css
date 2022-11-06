@@ -47,10 +47,10 @@
     font-size: 15px;
     font-weight: 500;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .editProfileContain:hover {
-    cursor: pointer;
     background-color: rgba(255, 255, 255, 0.938);
   }
 
